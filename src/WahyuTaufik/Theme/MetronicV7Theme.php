@@ -1,6 +1,6 @@
 <?php
 
-namespace Xinix\Theme;
+namespace WahyuTaufik\Theme;
 
 use Bono\Theme\Theme;
 use ROH\Util\Inflector;
