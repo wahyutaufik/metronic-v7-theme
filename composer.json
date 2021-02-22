@@ -1,0 +1,24 @@
+{
+    "name": "wahyutaufik/metronic-v7-theme",
+    "description": "Bono needs new theme. It's morhpin time",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Wahyu Taufik",
+            "email": "wahyutaufik37@gmail.com"
+        }
+    ],
+    "require": {
+        "xinix-technology/blade-theme": "~1.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "WahyuTaufik\\Theme\\MetronicV7Theme": "src/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "bower install"
+        ]
+    }
+}
