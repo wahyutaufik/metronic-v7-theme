@@ -1,2 +1,2 @@
-@extends('skeleton2')
+@extends('skeleton')
 
