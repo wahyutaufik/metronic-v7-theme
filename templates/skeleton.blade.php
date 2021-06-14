@@ -35,7 +35,7 @@
     <div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed">
         <!--begin::Logo-->
         <a href="index.html">
-            <img alt="Logo" src="{{ Theme::base('assets/media/logos/logo-light.png') }}" />
+            <img alt="Logo" src="{{Theme::base('assets/media/logos/') . ($app->config()['bono.theme']['dark'] ? 'logo-light' : 'logo-dark') . '.png'}}" />
         </a>
         <!--end::Logo-->
         <!--begin::Toolbar-->
@@ -79,7 +79,7 @@
                 <div class="brand flex-column-auto" id="kt_brand">
                     <!--begin::Logo-->
                     <a href="{{ URL::site() }}" class="brand-logo">
-                        <img alt="Logo" src="{{ Theme::base('assets/media/logos/logo-light.png') }}" />
+                        <img alt="Logo" src="{{Theme::base('assets/media/logos/') . ($app->config()['bono.theme']['dark'] ? 'logo-light' : 'logo-dark') . '.png'}}" />
                     </a>
                     <!--end::Logo-->
                     <!--begin::Toggle-->
