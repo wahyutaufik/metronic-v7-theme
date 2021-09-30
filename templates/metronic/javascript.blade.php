@@ -23,6 +23,7 @@
 <script src="{{ Theme::base('assets/js/metronic/components/select2-reference.js') }}" type="text/javascript"></script>
 <script src="{{ Theme::base('assets/js/metronic/components/themes.js') }}" type="text/javascript"></script>
 <script src="{{ Theme::base('assets/js/metronic/components/thumbnail.js') }}" type="text/javascript"></script>
+<script src="{{ Theme::base('assets/js/metronic/components/pagination.js') }}"></script>
 <script src="{{ Theme::base('assets/js/metronic/sidebar-menu.js') }}" type="text/javascript"></script>
 <script src="{{ Theme::base('assets/js/metronic/notification.js') }}" type="text/javascript"></script>
 <script src="{{ Theme::base('assets/js/metronic/custom.js') }}" type="text/javascript"></script>
